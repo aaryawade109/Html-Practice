@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Application Form</title>
+</head>
+<body>
+
+  <h1>Form for Student Application</h1>
+
+  <form action="#" method="POST">
+
+    <div>
+      <label for="name">Enter Name</label>
+      <input type="text" id="name" name="name" placeholder="Enter Name" required>
+    </div>
+
+    <div>
+      <label for="email">Enter Email</label>
+      <input type="email" id="email" name="email" placeholder="your@email.com" required>
+    </div>
+
+    <fieldset>
+      <legend>Year</legend>
+      <label for="year-se">SE</label>
+      <input type="radio" id="year-se" name="Year" value="SE">
+      <label for="year-te">TE</label>
+      <input type="radio" id="year-te" name="Year" value="TE">
+      <label for="year-be">BE</label>
+      <input type="radio" id="year-be" name="Year" value="BE">
+    </fieldset>
+
+    <fieldset>
+      <legend>Subject</legend>
+      <label for="sub-html">HTML</label>
+      <input type="checkbox" id="sub-html" name="sub" value="html">
+      <label for="sub-css">CSS</label>
+      <input type="checkbox" id="sub-css" name="sub" value="css">
+      <label for="sub-js">JS</label>
+      <input type="checkbox" id="sub-js" name="sub" value="js">
+    </fieldset>
+
+    <div>
+      <label for="thought">Enter Your Thoughts</label><br>
+      <textarea id="thought" name="thoughts" rows="2" cols="40"
+                placeholder="Write your thoughts here..."></textarea>
+    </div>
+
+    <div>
+      <label for="drop">Faculty Choice</label>
+      <select id="drop" name="faculty">
+        <option value="">-- Select a faculty --</option>
+        <option value="msreshma">Ms Reshma</option>
+        <option value="rakesh">Mr Rakesh</option>
+        <option value="deepak">Mr Deepak</option>
+        <option value="dia">Ms Dia</option>
+        <option value="megha">Ms Megha</option>
+        <option value="meet">Mr Meet</option>
+      </select>
+    </div>
+
+    <div>
+      <button type="submit">Submit</button>
+    </div>
+
+  </form>
+
+</body>
+</html>
